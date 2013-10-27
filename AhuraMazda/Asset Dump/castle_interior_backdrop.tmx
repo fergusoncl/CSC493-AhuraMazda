@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="castle" tilewidth="32" tileheight="32">
+  <image source="Sprites/castle.jpg" width="919" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzF0tlWjQEAhuF92IV0Id2ESpQxhSak0IxSKRGaJ5Qm0WhKaCRSmgdKl9Lzr9VBa1+AffAcfwffmxEKhTLJYpBjxBJHPMdJ4AQnSSSJU5zmDGc5x3mSuUAKqVzkEpdJI52MI5uV3KeKBa5wlWtkc50ccrnBTW6RRz4FFFJEMSXc5g53KaWMe5RTEbb5km56iKKaB9TwkEfU8pgnPKWOehpopIlmWmiljXY6eMZzXtBJV9jmFNPMEE0vffTzigFe8+bwnyGGGWGUMd7yjvd84CPjfGKCz3zhK5Nhm3v8Y58YZpnjG9+Z5wc/D//5xSJL/GaZFVZZY50NNtlimx3+8JfdsM2jLQR9RbK/oK9I9hf0Fcn+gr4i2V/Q1//u7wARR8Fb
+  </data>
+ </layer>
+</map>
