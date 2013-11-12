@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CheckPoint.js">
+    <Files>
+      <File FileName="Assets\Scripts\CheckPoint.js" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\Respawn.js" Line="13" Column="3" />
+      <File FileName="Assets\Scripts\Stomp.js" Line="8" Column="3" />
+      <File FileName="Assets\Scripts\SmoothCamera.js" Line="30" Column="6" />
+      <File FileName="Assets\Scripts\Enemy.js" Line="49" Column="4" />
+      <File FileName="Assets\Scripts\MovingPlatform.js" Line="86" Column="39" />
+      <File FileName="Assets\Scripts\TextureFlip.js" Line="24" Column="29" />
+      <File FileName="Assets\Scripts\PlayerSounds.js" Line="5" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
