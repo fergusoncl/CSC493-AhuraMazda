@@ -15,5 +15,11 @@ function OnTriggerEnter(other : Collider)
 		var P : GameObject = Instantiate(Player, SpawnPoint.position, Quaternion.identity);
 		var cam = Camera.main.GetComponent(SmoothCamera);
 		cam.target = P.transform;
+		
+		var _script = GameObject.Find("Death Counter");
+		var variableToChange: DeathCount = _script.GetComponent(DeathCount);
+		
+		variableToChange.PlayerDeaths += 1;
+
 	}
 }

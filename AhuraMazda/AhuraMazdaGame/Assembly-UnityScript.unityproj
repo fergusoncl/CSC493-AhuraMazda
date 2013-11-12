@@ -5,24 +5,21 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
 	<ProjectGuid>{E8EBF9C1-43E7-C25C-71BD-048CBF5F3995}</ProjectGuid>
-=======
-	<ProjectGuid>{0F823F79-67A6-62C3-393B-695D9E56D310}</ProjectGuid>
->>>>>>> c878df3d05890e7503d669dc547ff8e9f5d046db
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
 	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	<DebugSymbols>true</DebugSymbols>
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -40,47 +37,35 @@
 	<Reference Include="System" />
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-<<<<<<< HEAD
 	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
 	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-=======
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
->>>>>>> c878df3d05890e7503d669dc547ff8e9f5d046db
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimateTexture.js" />
      <Compile Include="Assets\Scripts\CheckPoint.js" />
+     <Compile Include="Assets\Scripts\DeathCount.js" />
      <Compile Include="Assets\Scripts\Enemy.js" />
      <Compile Include="Assets\Scripts\MovingPlatform.js" />
      <Compile Include="Assets\Scripts\PlayerSounds.js" />
      <Compile Include="Assets\Scripts\Respawn.js" />
+     <Compile Include="Assets\Scripts\ScoreScript.js" />
+     <Compile Include="Assets\Scripts\SetLevelEnding.js" />
      <Compile Include="Assets\Scripts\SmoothCamera.js" />
      <Compile Include="Assets\Scripts\Stomp.js" />
      <Compile Include="Assets\Scripts\TextureFlip.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\World1_Jump.js" />
-=======
->>>>>>> c878df3d05890e7503d669dc547ff8e9f5d046db
      <Compile Include="Assets\Scripts\playerAnimate.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-<<<<<<< HEAD
       <Project>{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{0E7B564A-E0BB-3FBB-6FE9-6B5A1F36F6A7}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
-=======
-      <Project>{BF7B63BB-501E-0C65-1747-5AF6AE87217D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{361CA9F2-76BC-9C9F-5CC2-BDC0D5FA4BC3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
->>>>>>> c878df3d05890e7503d669dc547ff8e9f5d046db
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
