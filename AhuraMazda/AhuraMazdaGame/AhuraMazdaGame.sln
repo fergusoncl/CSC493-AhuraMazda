@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-CSharp-firstpass.csproj", "{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}"
 EndProject
-Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-CSharp.csproj", "{DD22DED1-8876-A152-E0DD-7EF40414916B}"
-EndProject
 Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-UnityScript-firstpass.unityproj", "{0E7B564A-E0BB-3FBB-6FE9-6B5A1F36F6A7}"
 EndProject
 Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-UnityScript.unityproj", "{E8EBF9C1-43E7-C25C-71BD-048CBF5F3995}"
@@ -19,10 +17,6 @@ Global
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E7B564A-E0BB-3FBB-6FE9-6B5A1F36F6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E7B564A-E0BB-3FBB-6FE9-6B5A1F36F6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7B564A-E0BB-3FBB-6FE9-6B5A1F36F6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																				GlobalSection(MonoDevelopProperties) = preSolution
+																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-CSharp-firstpass-vs.csproj", "{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}"
 EndProject
-Project("{52705E58-1390-7F5F-127C-3416B1828641}") = "AhuraMazdaGame", "Assembly-CSharp-vs.csproj", "{DD22DED1-8876-A152-E0DD-7EF40414916B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,15 +13,11 @@ Global
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53C9BC2-6F71-A868-C5D3-C91544D4E84C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD22DED1-8876-A152-E0DD-7EF40414916B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																					GlobalSection(MonoDevelopProperties) = preSolution
+																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

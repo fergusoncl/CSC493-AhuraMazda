@@ -1,4 +1,12 @@
-﻿#pragma strict
+﻿/*
+	Author: Cody Ferguson
+	Script: CheckPoint.js
+	Purpose:
+		As the player progresses, this script moves the game object "spawn point" to 
+		"checkpoints" allowing the player to respawn at more convenient locations.
+*/
+
+#pragma strict
 
 /*For manipulating the SpawnPoint's position.*/
 var SpawnPoint : Transform;

@@ -1,4 +1,11 @@
-﻿#pragma strict
+﻿/*
+	Author: Cody Ferguson
+	Script: TextureFlip.js
+	Purpose:
+		Flip the displayed sprite/image to save on tiling shifting in Animation.
+*/
+
+#pragma strict
 
 /* Value representing the Sprite's X-axis position. */
 var X: float;

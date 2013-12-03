@@ -1,4 +1,11 @@
-﻿#pragma strict
+﻿/*
+	Author: Cody Ferguson
+	Script: playerAnimate.js
+	Purpose:
+		Ensure animations are performed using the correct row or column of a sprite sheet.
+*/
+
+#pragma strict
 
 /* Script used to display the proper animation when the player moves. */
 function Update () 

@@ -1,4 +1,12 @@
-﻿#pragma strict
+﻿/*
+	Author: Cody Ferguson
+	Script: MovingPlatform.js
+	Purpose:
+		Allow platforms in the game to appear as sliding objects in either vertical or horizontal 
+		movement patterns.
+*/
+
+#pragma strict
 
 /*Variables for managing the location of the platform.*/
 private var Xpos : float;

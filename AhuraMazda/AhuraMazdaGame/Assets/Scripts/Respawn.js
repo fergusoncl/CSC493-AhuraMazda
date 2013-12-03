@@ -1,4 +1,12 @@
-﻿#pragma strict
+﻿/*
+	Author: Cody Ferguson
+	Script: Respawn.js
+	Purpose:
+		When the player hits the respawner collider, instantiate a new prefab at whichever checkpoint
+		the player hit last.
+*/
+
+#pragma strict
 
 /* variable to hold what to respawn, variable to hold
   the position to spawn it at. */
@@ -16,6 +24,7 @@ function OnTriggerEnter(other : Collider)
 		var cam = Camera.main.GetComponent(SmoothCamera);
 		cam.target = P.transform;
 		
+		/*  Grab the death counter script and increment the value. */
 		var _script = GameObject.Find("Death Counter");
 		var variableToChange: DeathCount = _script.GetComponent(DeathCount);
 		
